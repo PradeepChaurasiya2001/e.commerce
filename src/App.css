@@ -1,38 +1,67 @@
-.App {
+/* Navbar */
+.navbar-nav a{
+  font-size: 15px;
+}
+
+/* Registration form  */
+.rs{
+  background: url('./assests/Register.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: 0px;
+  height: 520px;  
+  /* border: 10px solid; */
+  text-size-adjust: 50px;
+  color: bisque;
   text-align: center;
+
+}
+.form-group{
+  margin: auto;
+  padding: 3px;
+  width: 500px;
+  text-align: left;
+  color:#f3f4f9;
+}
+.rs button{
+  width: 100px;
+  height: 50px;
+  /* color: green; */
+  background-color: aqua;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Login page style ------=-=-------------=-=-=-=-=----------- */
+.cont{
+  
+  background: url('./assests/login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+/* display: flex; */
+justify-content: center;
+align-items: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.logins{
+  
+  margin: auto;
+  padding: 100px;
+  height: 520px;  
+  /* border: 10px solid; */
+  text-size-adjust: 50px;
+  color: bisque;
+  text-align: center;
+  
 
-.App-link {
-  color: #61dafb;
 }
+.form-groups{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: auto;
+  padding: 10px;
+  width: 500px;
+  text-align: left;
+  color:#f3f4f9;
 }
